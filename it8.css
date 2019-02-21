@@ -1,0 +1,40 @@
+
+selector::pseudo-element {
+  property:value;
+ }
+  
+  
+
+     p::first-line{
+     color:yellow;
+     font-variant: small-caps;
+     }
+
+
+                 p::first-letter{
+                 color:#ff0000;
+                 font-size:xx-large;
+                 }
+
+h1::before{
+  content: url("/home/itsec2/Pictures/images.jpeg");
+}
+
+
+
+h1::after{
+  content: url("/home/itsec2/Pictures/f8a0c3dd556857fffead604bf9a5548d.gif");
+}
+
+img{
+   opacity:0.5;
+   filter:alpha (opacity=50);
+   }
+
+
+img:hover{
+   opacity:1.0;
+   filter:alpha (opacity=100);
+   }
+
+

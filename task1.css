@@ -1,0 +1,53 @@
+body{
+background-image:url("/home/itsec2/Pictures/jack-sparrow-in-pirates-of-the-caribbean-dead-men-tell-no-tales-wide-1366x768.jpg");
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-attachment:scroll;
+
+}                         
+
+p.one{
+margin:25px 50px 75px 100px;
+color:red;
+}
+p.one{
+border-style:solid;
+border-width:5px;
+background-color:black;
+opacity:0.5;
+filter:alpha(opacity=10);
+}
+div.two{
+width:300px;
+height:200px;
+padding:100px;
+margin:25px;
+border:25px solid green;
+background-color:powderblue;
+background-image:url("/home/itsec2/Pictures/tumblr_mx4oqr6t3X1smcbm7o1_500.gif");
+background-repeat:no-repeat;
+opacity:0.5;
+filter:alpha(opacity=10);
+transition:width 2s,height 4s;
+}
+
+ p::first-line {
+     color:#ff0000;
+     font-variant: small;
+     }
+
+
+div{
+width:100px;
+height:100px;
+background:red;
+transition:width 2s,height 4s;
+}
+
+div:hover{
+width:300px;
+height:300px;
+}
+
+
+
